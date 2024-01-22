@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Management</title>
+    <link rel="stylesheet" href="projectmanagement.css">
+</head>
+<body>
+    <h1><u><b>Project Management</b></u></h1>
+    <form action="">
+        <div>
+        <label for="pname">Project Name</label>
+        <input type="text" id="pname">
+        <br><br>
+        <label for="assigned">Assigned To </label>
+    <select name="" id="assigned">
+        <option value="choose" disabled="disabled">--Choose Role </option>
+        <option value="english">Project Manager</option>
+        <option value="swahili">Project Coordinator</option>
+        <option value="french">Field Team</option>
+
+    </select>
+        <br><br>
+        <label for="startdate">Start Date</label>
+        <input type="date" id="startdate">
+        <br><br>
+        <label for="enddate">End Date</label>
+        <input type="date" id="enddate">
+        <br><br>
+
+
+
+
+            <label style="width: 150px">Priority</label>
+
+            <label for="high" style="width: 30px">High</label>
+            <input type="radio" id="high">
+            <label for="average" style="width: 50px">Average</label>
+            <input type="radio" id="average">
+            <label for="low" style="width: 25px">Low</label>
+            <input type="radio" id="low">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br><br>
+        <label for="description">Description</label>
+        <textarea name="" id="description" cols="55" rows="5"></textarea>
+        </div>
+        <br><br>
+            <div class="buttons">
+                <button type="submit" style="background-color: green">Submit</button>
+                <button type="reset" style="background-color: #282893">Clear</button>
+
+
+
+            </div>
+
+</form>
+</body>
+</html>

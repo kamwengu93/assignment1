@@ -1,0 +1,56 @@
+.priority{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+form{
+    background-color: aqua;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.buttons{
+    display: flex;
+}
+Button{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+input[type=text], input[type=date]{
+    width: 60%;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+
+label{
+    font-weight: bold;
+    width: 100px;
+    display: inline-block;
+
+}
+select{
+    margin-left: 50px;
+
+}
+
+
+textarea{
+    width: 60%;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 50px;
+
+}
+p{
+   font-weight: bold;
+}
+
